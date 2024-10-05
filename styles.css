@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(147, 201, 111);
+}
+h1{
+    text-align: center;
+}
+.menu{
+    width: 69%;
+    margin:10px 10px 50px 50px;
+    padding:5px 10px 20px 20px;
+    max-width: fit-content;
+    display: inline-block;
+    font-size: 20px;
+    /*background-color: rgb(73, 148, 54);*/
+}
+.photo{
+    display: inline-block;
+    width: 19%;
+    margin:auto;
+    padding:20px 0;
+    text-align: center;
+    max-width: fit-content;
+}
+.photo img{
+   height: 200px;
+   width: 200px;
+   margin: 0 auto;
+   
+}
+.menu a{
+    color: black;
+}
+.menu a:hover{
+    color: blue;
+}
+.menu a:visited{
+    color: green;
+}
+.project .items img{
+    height: 200px;
+    width: 300px;
+}
+.project .items a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.project .items a:hover{
+    color:blue;
+}
+.project .items a:visited{
+    color: green;
+}
+.project .items {
+    display: inline-block;
+    margin:10px 20px;
+    padding:0 10px;
+    text-align: center;
+
+}
+.project{
+    width:auto;
+    display:inline-block;
+    margin:0 50px;
+    padding:0 50px;
+}
+.project h2{
+    margin:0 20px;
+    padding: 20px;
+    font-size: 25px;
+}
+footer p{
+    text-align: center;
+}
+hr{
+    height: 2px;
+    border: 1px solid rgb(73, 148, 54);
+    background-color: rgb(73, 148, 54);
+}
+.anchor a{
+   color:black; 
+}
+.anchor a:hover{
+    color:blue;
+}
+.anchor a:visited{
+    color:green;
+}
